@@ -1,0 +1,36 @@
+package com.sujay.mongoDemo.demo.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.sujay.mongoDemo.demo.service.ExpenseService;
+
+@RestController
+@RequestMapping("/api/expense")
+public class ExpenseController {
+	
+	private final ExpenseService expenseService;
+	
+	
+	
+	public void addExpense() {
+		
+	}
+	
+	public void updateExpense() {
+		
+	}
+	
+	public void getAllExpenses() {
+		
+	}
+	
+	public void getExpenseByName() {
+		
+	}
+	
+	public void deleteExpense() {
+		
+	}
+	
+}

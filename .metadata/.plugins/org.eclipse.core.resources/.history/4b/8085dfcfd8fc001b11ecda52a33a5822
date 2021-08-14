@@ -1,0 +1,36 @@
+package com.sujay.mongoDemo.demo.service;
+
+import org.springframework.stereotype.Service;
+
+import com.sujay.mongoDemo.demo.repository.ExpenseRepository;
+
+@Service
+public class ExpenseService {
+	
+	private ExpenseRepository expenseRepository;
+	
+	public ExpenseService(ExpenseRepository expenseRepository) {
+		this.expenseRepository = expenseRepository;
+	}
+
+	public void addExpense() {
+		
+	}
+	
+	public void updateExpense() {
+		
+	}
+	
+	public void getAllExpenses() {
+		
+	}
+	
+	public void getExpenseByName() {
+		
+	}
+	
+	public void deleteExpense() {
+		
+	}
+	
+}

@@ -1,0 +1,5 @@
+package com.sujay.mongoDemo.demo.controller;
+
+public class ExpenseController {
+
+}

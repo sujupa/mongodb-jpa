@@ -1,0 +1,10 @@
+package com.sujay.mongoDemo.demo.model;
+
+public class Expense {
+
+	private String id;
+	private String expenseName;
+	private ExpenseCategory expenseCategory;
+	private BigDecimal expenseAmount;
+	
+}
